@@ -9,7 +9,7 @@ export const HeroesList = ({ publisher }) => {
     // const heroes = getHeroesByPublisher(publisher);
 
     return (
-        <div className="row gy-8" >
+        <div className="row gy-8 animate__animated animate__fadeIn" >
             {
                 heroes.map(hero => (
                     <HeroCard key={hero.id} {...hero} />

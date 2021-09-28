@@ -30,7 +30,7 @@ export const HeroesScreen = ({ history }) => {
         <div className="row mt-5">
             <div className="col-4">
                 <img 
-                    className="img-thumbnail"
+                    className="img-thumbnail animate__animated animate__rollIn"
                     alt={ superhero }
                     src={`../assets/heroes/${ heroeId }.jpg`} />
             </div>
