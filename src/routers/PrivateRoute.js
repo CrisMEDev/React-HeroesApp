@@ -8,7 +8,8 @@ export const PrivateRoute = ({
     ...rest
 }) => {
 
-
+    // recupera el ultimo path visitado para mostrarselo al user
+    localStorage.setItem( 'lastPath', rest.location.pathname );
     
     return (
         <Route { ...rest }

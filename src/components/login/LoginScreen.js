@@ -17,9 +17,11 @@ export const LoginScreen = ({ history }) => {
 
     const handleLogin = () => {
         // history.push('/');
+
+        const lastPath = localStorage.getItem('lastPath') || '/';
         
         dispatch( setUser );
-        history.replace('/');
+        history.replace(lastPath);
 
     }
 
