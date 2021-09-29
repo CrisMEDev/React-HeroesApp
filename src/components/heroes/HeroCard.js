@@ -30,7 +30,7 @@ export const HeroCard = ({
 
                     <Link
                         className="btn btn-outline-dark"
-                        to={ `./hero/${ id }` }
+                        to={ `/hero/${ id }` }
                     >
                         About...
                     </Link>
