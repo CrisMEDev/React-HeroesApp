@@ -9,3 +9,5 @@ Para obtener los query params de la url con facilidad ` npm install query-string
 [React Router](https://reactrouter.com/web/guides/quick-start)
 [query-string](https://www.npmjs.com/package/query-string)
 
+## Formas de trabajar con imágenes
+[Trabajando imágenes](https://webpack.js.org/guides/dependency-management/#requirecontext)
